@@ -32,6 +32,7 @@ forumlario2.addEventListener("submit", async (e) => {
 	const name = input2.value;
 	try {
 		const data = await readApi.find(name);
+		console.log(data);
 		if (data.url.trim()) {
 			img2.src = data.url;
 			img2.classList.add("activo");

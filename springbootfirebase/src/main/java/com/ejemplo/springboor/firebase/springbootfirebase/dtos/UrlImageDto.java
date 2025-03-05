@@ -4,7 +4,7 @@ public class UrlImageDto {
 
     private String urlImage;
 
-    public String getUrlImage() {
+    public String getUrl() {
         return urlImage;
     }
 

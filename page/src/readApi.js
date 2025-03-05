@@ -1,7 +1,8 @@
 
 
 
-const baseApi = 'http://localhost:3008/api/image';
+const port = 3008
+const baseApi = `http://localhost:${port}/api/image`;
 
 export const readApi = {
     async save(data){
