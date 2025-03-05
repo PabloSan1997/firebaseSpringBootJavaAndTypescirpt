@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+<body>
+    <h1>Ejemplo para usar servicios</h1>
+    <div class="zona zona1">
+        <form class="formulario formulario1">
+            <label for="nuevo">Agregar imagen</label>
+            <input type="file" id="nuevo" accept="image/*">
+            <button type="submit">Agregar</button>
+        </form>
+        <div class="area_image" id="area_image1">
+            <img src="" alt="imagen" id="image1" class="imagen">
+        </div>
+    </div>
+    <div class="zona zona2">
+        <div class="area_image" id="area_image1">
+            <img src="" alt="imagen" id="image2" class="imagen">
+        </div>
+        <form class="formulario formulario2">
+            <label for="buscar">Buscar imagen</label>
+            <input type="text" id="buscar">
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+    <div class="zona zona3">
+        <form class="formulario formulario3">
+            <label for="eliminar">Eliminar</label>
+            <input type="text" id="eliminar">
+            <button type="submit">Eliminar</button>
+        </form>
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
